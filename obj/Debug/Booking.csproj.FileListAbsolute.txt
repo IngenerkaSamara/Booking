@@ -1,0 +1,13 @@
+C:\Users\Abra\source\repos\Booking\bin\Debug\Booking.exe.config
+C:\Users\Abra\source\repos\Booking\bin\Debug\Booking.exe
+C:\Users\Abra\source\repos\Booking\bin\Debug\Booking.pdb
+C:\Users\Abra\source\repos\Booking\obj\Debug\Booking.csprojAssemblyReference.cache
+C:\Users\Abra\source\repos\Booking\obj\Debug\Booking.HotelForm.resources
+C:\Users\Abra\source\repos\Booking\obj\Debug\Booking.MainForm.resources
+C:\Users\Abra\source\repos\Booking\obj\Debug\Booking.Properties.Resources.resources
+C:\Users\Abra\source\repos\Booking\obj\Debug\Booking.RegisterForm.resources
+C:\Users\Abra\source\repos\Booking\obj\Debug\Booking.RoomForm.resources
+C:\Users\Abra\source\repos\Booking\obj\Debug\Booking.csproj.GenerateResource.cache
+C:\Users\Abra\source\repos\Booking\obj\Debug\Booking.csproj.CoreCompileInputs.cache
+C:\Users\Abra\source\repos\Booking\obj\Debug\Booking.exe
+C:\Users\Abra\source\repos\Booking\obj\Debug\Booking.pdb

@@ -23,7 +23,7 @@ namespace Booking
             rf.ShowDialog();
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void showFilter_Click(object sender, EventArgs e)
         {
             if (tableLayoutPanel1.RowStyles[1].Height > 80)
             {
@@ -35,7 +35,7 @@ namespace Booking
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void showHotel_Click(object sender, EventArgs e)
         {
             HotelForm hf = new HotelForm();
             hf.Show();
