@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace Booking
 {
-    public partial class MainForm : Form
+    public partial class HotelForm : Form
     {
-        public MainForm()
+        public HotelForm()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            HotelForm hf = new HotelForm();
-            hf.Show();
+            RoomForm rf = new RoomForm();
+            rf.Show();
         }
     }
 }
