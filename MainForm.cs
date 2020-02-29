@@ -34,5 +34,11 @@ namespace Booking
                 tableLayoutPanel1.RowStyles[1].Height = 100;
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            HotelForm hf = new HotelForm();
+            hf.Show();
+        }
     }
 }
