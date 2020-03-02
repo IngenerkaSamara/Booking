@@ -35,9 +35,27 @@ namespace Booking
             }
         }
 
-        private void showHotel_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            HotelForm hf = new HotelForm();
+            HotelForm hf = new HotelForm("Гостиница 1", "Самара");
+            hf.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            HotelForm hf = new HotelForm("Гостиница 2", "Димитровград");
+            hf.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            HotelForm hf = new HotelForm("Гостиница 3", "Красноярск");
+            hf.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            HotelForm hf = new HotelForm("Гостиница 4", "Димитровград");
             hf.Show();
         }
     }
