@@ -14,6 +14,7 @@ namespace Booking
             InitializeComponent();
             Text = "Гостиница " + Name;
             cityLabel.Text = City;
+            toolTip1.SetToolTip(cityLabel, "Описание города" + City + "\r\nДобавится позже");
 
             //Чтение из файла
             int x = 0;
@@ -34,6 +35,9 @@ namespace Booking
             }
         }
 
+        /// <summary>
+        /// Открытие номера в новом окне
+        /// </summary>
         private void button1_Click(object sender, EventArgs e)
         {
             foreach (Room room in rooms_list)

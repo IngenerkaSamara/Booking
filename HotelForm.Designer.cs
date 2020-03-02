@@ -28,12 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HotelForm));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.cityLabel = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,6 +68,7 @@
             this.cityLabel.Size = new System.Drawing.Size(191, 25);
             this.cityLabel.TabIndex = 7;
             this.cityLabel.Text = "Где мы находимся";
+            this.toolTip1.SetToolTip(this.cityLabel, "Описание города\r\nыва");
             // 
             // label2
             // 
@@ -114,5 +117,6 @@
         private System.Windows.Forms.Label cityLabel;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
